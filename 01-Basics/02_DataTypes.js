@@ -4,14 +4,14 @@
 
 /*
 Various Data Types in JavaScript:
-1. number
-2. bigint
-3. string
-4. boolean
-5. null
-6. undefined
-7. symbol
-8. object
+1. Number
+2. BingInt
+3. String
+4. Boolean
+5. Null
+6. Undefined
+7. Symbol
+8. Object
 */
 
 let age = 23;
