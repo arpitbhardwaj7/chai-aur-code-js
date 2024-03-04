@@ -1,6 +1,6 @@
 /*
 Two Types of Data Types in JavaScript:
-1. Primitive => Passed by value
+1. Primitive => Passed by value | Stored in stack
    1.1 Number
    1.2 BigInt
    1.3 String
@@ -8,7 +8,7 @@ Two Types of Data Types in JavaScript:
    1.5 Symbol
    1.6 Undefined
    1.7 Null
-2. Reference (Non-Primitive) => Passed by reference
+2. Reference (Non-Primitive) => Passed by reference | Stored in heap
    2.1 Arrays
    2.2 Objects
    2.3 Functions
