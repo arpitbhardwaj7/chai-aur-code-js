@@ -7,7 +7,7 @@ console.log("My name is " + name + ". I am from " + city + ". I am " + age + " y
 // Use this method instead.
 console.log(`My name is ${name}. I am from ${city}. I am ${age} years old.`);
 
-var gameName = new String('GTA-Vice-City');   // A string object.
+let gameName = new String('GTA-Vice-City');   // A string object.
 console.log(gameName);
 console.log(gameName[2]);   // Output: A
 console.log(gameName.charAt(4));   // Output: V
@@ -19,19 +19,19 @@ console.log(gameName.toUpperCase());   // Output: GTA-VICE-CITY
 console.log(gameName.indexOf('i'));   // Output: 5
 
 // substring(): Extracts characters from a string within the range [Start index, End index).
-var newString1 = gameName.substring(2, 5);
+let newString1 = gameName.substring(2, 5);
 console.log(newString1);   // Output: A-V
 
 // substring(): Extracts characters from a string within the range [Start index, End index).
-var newString2 = gameName.slice(2, 5);
+let newString2 = gameName.slice(2, 5);
 console.log(newString2);   // Output: A-V
 
 // trim(): Removes whitespace from both ends of a string.
-var newString3 = "   Arpit     ";
+let newString3 = "   Arpit     ";
 console.log(newString3.trim());   // Output: Arpit
 
 // replace(): Replaces specified characters or patterns in a string with a new value.
-var newString4 = "Arpit studies in UIT Shimla.";
+let newString4 = "Arpit studies in UIT Shimla.";
 console.log(newString4.replace("UIT Shimla", "IIIT Allahabad"));   // Output: Arpit studies in IIIT Allahabad.
 
 // includes(): Checks if a string contains a specific substring and returns a boolean.
