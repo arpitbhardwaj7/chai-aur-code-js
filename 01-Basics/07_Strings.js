@@ -39,3 +39,12 @@ console.log(gameName.includes('NFS'));   // Output: false
 
 // split(): Splits a string into an array of substrings based on a specified delimiter.
 console.log(gameName.split('-'));   // Output: ['GTA', 'Vice', 'City']
+
+// JavaScript string-copy operations create deep copies.
+let myString5 = new String('I live in Shimla.');
+let myString6 = myString5;
+console.log(`myString5 before: ${myString5}`);   // Output: myString5 before: I live in Shimla.
+console.log(`myString6 before: ${myString6}`);   // Output: myString6 before: I live in Shimla.
+myString5 = myString5.replace("Shimla", "Prayagraj");
+console.log(`myString5 after: ${myString5}`);   // Output: myString5 after: I live in Prayagraj.
+console.log(`myString6 after: ${myString6}`);   // Output: myString6 after: I live in Shimla.
