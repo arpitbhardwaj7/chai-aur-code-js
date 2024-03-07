@@ -1,7 +1,7 @@
 let id1 = Symbol("id");
 
-// Object Literal
 // Key can either be a string or a symbol.
+// Value can be of any data type.
 let myObj1 = {
     name: "Arpit",
     "full name": "Arpit Bhardwaj",
