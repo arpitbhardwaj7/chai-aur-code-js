@@ -7,6 +7,7 @@ console.log(cities);   // Output: ['Shimla', 'Chandigarh', 'Delhi', ['India', 'U
 let myArr1 = cities.concat(countries);   // concat() function does not update the array, but return a new array.
 console.log(myArr1);   // Output: ['Shimla', 'Chandigarh', 'Delhi', 'India', 'USA']
 
+// Spread Operator
 let myArr2 = [...cities, ...countries];
 console.log(myArr2);   // Output: ['Shimla', 'Chandigarh', 'Delhi', 'India', 'USA']
 
