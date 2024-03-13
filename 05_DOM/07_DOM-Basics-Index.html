@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Chai Aur Code | DOM Basics </title>
+    </head>
+
+    <body style = "background-color: #212121; color: #ffffff;">
+
+
+        <!-- Scripts -->
+        <script>
+            // Creating a New Element in DOM
+            // Method-1:
+            let div1Var = document.createElement('div');
+            div1Var.innerText = 'This is the first method of creating a new element in DOM.';
+            div1Var.style.color = 'orange';
+            document.body.appendChild(div1Var);
+
+            // Method-2:
+            let div2Var = document.createElement('div');
+            div2Var.style.color = 'green';
+            let divText = document.createTextNode('This is another method of creating a new element in DOM.');
+            div2Var.appendChild(divText);
+            document.body.appendChild(div2Var);
+        </script>
+    </body>
+</html>
