@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Chai Aur Code | DOM Basics </title>
+    </head>
+
+    <body style = "background-color: #212121; color: #ffffff">
+        <ul class = 'language'>
+            <li> JavaScript </li>
+        </ul>
+
+        <!-- Scripts -->
+        <script>
+            // A function to add a new list item to a list.
+            function addLanguage(langName) {
+                let liVar = document.createElement('li');
+                liVar.innerHTML = langName;
+                document.querySelector('.language').appendChild(liVar);
+            }
+
+            addLanguage('Python');
+            addLanguage('TypeScript');
+            
+            // An optimized function to add a new list item to a list.
+            function addLanguageOptimized(langName) {
+                let liVar = document.createElement('li');
+                liVar.appendChild(document.createTextNode(langName));
+                document.querySelector('.language').appendChild(liVar);
+            }
+
+            addLanguageOptimized('C++');
+
+            // Editing an Element
+            // Method-1
+            let firstItem = document.querySelector('li:nth-child(1)');
+            firstItem.innerHTML = 'Go';
+
+            // Method-2
+            let secondItem = document.querySelector('li:nth-child(2)');
+            let secondItemNew = document.createElement('li');
+            secondItemNew.appendChild(document.createTextNode('HTML'));
+            secondItem.replaceWith(secondItemNew);
+
+            // Method-3
+            let thirdItem = document.querySelector('li:nth-child(3)');
+            thirdItem.outerHTML = '<li> Java </li>';
+
+            // Removing an Element
+            let lastItem = document.querySelector('li:last-child');
+            lastItem.remove();
+        </script>
+    </body>
+</html>
