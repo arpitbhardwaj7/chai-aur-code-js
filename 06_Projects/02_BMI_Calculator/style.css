@@ -1,0 +1,15 @@
+#container {
+    width: 25vw;
+    margin: 3vh 2vw;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(#655c5f, #0c0c0c);
+}
+
+form {
+    padding: 15px;
+}
+
+input {
+    margin-top: 20px;
+}
