@@ -1,0 +1,16 @@
+#container {
+    width: 500px;
+    height: 500px;
+    background-image: url("clock_template.jpg");
+    background-size: contain;
+    position: relative;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+#time {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
