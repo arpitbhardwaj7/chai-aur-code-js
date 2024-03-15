@@ -1,0 +1,44 @@
+#container {
+    width: 40vw;
+    height: auto;
+    margin: 10vh 10vw;
+    border: 3px solid black;
+}
+
+#container h2, #container h3 {
+    text-align: center;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5vh;
+    border: 3px solid black;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
+}
