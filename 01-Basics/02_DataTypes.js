@@ -5,7 +5,7 @@
 /*
 Various Data Types in JavaScript:
 1. Number
-2. BingInt
+2. BigInt
 3. String
 4. Boolean
 5. Null

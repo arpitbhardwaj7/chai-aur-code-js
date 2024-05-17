@@ -33,7 +33,7 @@ console.log(booleanIsLoggedIn2);   // Output: true
 console.log(typeof(booleanIsLoggedIn2));   // Output: boolean
 
 let isLoggedIn3 = "Arpit";   // Non-empty string => true
-let booleanIsLoggedIn3 = Boolean(isLoggedIn2)
+let booleanIsLoggedIn3 = Boolean(isLoggedIn3)
 console.log(booleanIsLoggedIn3);   // Output: true
 console.log(typeof(booleanIsLoggedIn3));   // Output: boolean
 

@@ -8,7 +8,7 @@ console.log("My name is " + name + ". I am from " + city + ". I am " + age + " y
 console.log(`My name is ${name}. I am from ${city}. I am ${age} years old.`);
 
 let gameName = new String('GTA-Vice-City');   // A string object.
-console.log(gameName);
+console.log(gameName);   // Output: GTA-Vice-City
 console.log(gameName[2]);   // Output: A
 console.log(gameName.charAt(4));   // Output: V
 // length: Returns the number of characters in a string.
