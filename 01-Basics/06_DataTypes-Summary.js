@@ -1,5 +1,5 @@
 /*
-Two Types of Data Types in JavaScript:
+Two Types of Data Types in JavaScript (Based on How Data is Stored and Accessed):
 1. Primitive => Passed by value | Stored in stack
    1.1 Number
    1.2 BigInt
@@ -30,7 +30,7 @@ console.log(arpit);   // Output: {name: 'Arpit Bhardwaj', age: 23}
 console.log(typeof(arpit));   // Output: object
 
 // Function
-let myFunction = function() {
+let myFunction = function () {
     console.log("Hello, World");
 }
 
